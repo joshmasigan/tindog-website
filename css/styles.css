@@ -1,0 +1,180 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+button{
+    font-weight: 100;
+}
+
+em{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Headings */
+
+.hero-heading{
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+.features-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+} 
+
+.section-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fafafa;
+}
+
+.white-section{
+    background-color: #fafafa;
+    color: black;
+}
+
+/* Hero Section */
+
+#hero .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+/* Navbar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+    /* position: sticky; */
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 18px; 
+    /* Used pixels because content will change based on viewport size */
+}
+
+/* Download Buttons */
+
+.hero-dl-btn{
+    margin: 5% 3% 5% 0;
+    /* Used % to get buttons to resize w viewport*/
+}
+
+.btn-dark{
+    background-color: #302e2e;
+}
+
+.ios-dl{
+    background-color: #302e2e;
+}
+
+.hero-img{
+    max-width: 25%;
+    transform: rotate(20deg);  
+    position: absolute;
+    right: 20.5%;
+}
+
+/* Features Section*/
+
+#features{
+    position: relative;
+}
+
+.features-div{
+    line-height: 1.5;
+    padding: 2%;
+}
+
+.features-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-desc{
+    color: #8f8f8f;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color:#fafafa;
+}
+
+.testimonials-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 18%;
+    margin: 20px 25px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+/* Footer Section */
+
+.footer-ico{
+    padding: 20px 10px;
+}
+
+.footer-copyright{
+    color: #8f8f8f;
+}
+
+@media (max-width:992px){
+    .hero-img{
+        max-width: 45%;
+        position: static;
+        transform: rotate(0);
+    }
+    #hero{
+        text-align: center;
+    }
+}
